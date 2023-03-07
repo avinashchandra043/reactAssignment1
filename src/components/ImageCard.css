@@ -1,0 +1,115 @@
+.imgHandler {
+  width: 917px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.imgcard {
+  width: 261px;
+  height: 233px;
+  border: 2px solid #dfe3eb;
+  border-radius: 11px;
+  margin-bottom: 25px;
+}
+.imgcard1 > img {
+  width: 261.6px;
+  height: 171.2px;
+}
+.imgcard2 {
+  height: 58px;
+  width: 261px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.imgcard21 {
+  width: 235px;
+  font-family: "segoe ui";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  font-style: normal;
+  text-align: left;
+}
+.imgcard211 {
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.imgcard2111 {
+  font-family: "segoe ui";
+  font-size: 13px;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.imgcardExt {
+  width: 42px;
+  height: 17.4px;
+  opacity: 0.9;
+  border-radius: 15px;
+  font-family: "segoe ui";
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 10px;
+  font-style: normal;
+  background: #99acc2;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.imgcard21111 {
+  display: flex;
+  gap: 8px;
+}
+.imgcardsvg > svg {
+  width: 20px;
+  height: 20px;
+  fill: #99acc2;
+}
+.listTitle {
+  display: flex;
+  font-family: "segoe ui";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  font-style: normal;
+  text-align: left;
+  color: #33475b;
+  align-items: center;
+}
+.listTitle1 > input {
+  width: 25px;
+  height: 25px;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 5px;
+  margin-left: 33px;
+}
+.listTitle2 {
+  margin-left: 197px;
+}
+.listTitle3 {
+  margin-left: 121px;
+}
+.listTitle4 {
+  margin-left: 65px;
+}
+.listTitle5 {
+  margin-left: 108px;
+}
+.imgcard:hover {
+  background-color: #00bbd8;
+  border-color: #00bbd8;
+  color: white;
+}
+.imgcard:hover .imgcardsvg > svg {
+  fill: white;
+}
+.imgcard:hover .imgcardExt {
+  background-color: white;
+  color: #5e7c98;
+}

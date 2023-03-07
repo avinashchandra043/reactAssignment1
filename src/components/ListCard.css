@@ -1,0 +1,75 @@
+.listcard {
+  display: flex;
+  align-items: center;
+  width: 917px;
+}
+.listcard1 > input {
+  width: 25px;
+  height: 25px;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 5px;
+}
+.listcard1 {
+  margin: 53px 0px 52px 33px;
+}
+.listcard2 > svg {
+  width: 20px;
+  height: 20px;
+  margin-left: 29px;
+}
+.listcard3 > img {
+  width: 95.6px;
+  height: 64.2px;
+  border-radius: 5px;
+  margin-left: 15px;
+}
+.listcard7 {
+  font-family: "segoe ui";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  font-style: normal;
+  color: #00bbd8;
+  margin-left: 20px;
+}
+.listcard4 {
+  display: flex;
+  margin-left: 84px;
+  font-family: "segoe ui";
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 13px;
+  font-style: normal;
+  color: #497696;
+  gap: 15px;
+  align-items: center;
+}
+.listcard41 {
+  width: 1px;
+  height: 37px;
+  background-color: #dfe3eb;
+  border-color: #dfe3eb;
+  border-width: 1px;
+  border-style: solid;
+}
+.listcard5 {
+  margin-left: 63px;
+  font-family: "segoe ui";
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 13px;
+  font-style: normal;
+  text-align: center;
+  color: #497696;
+}
+.listcard6 {
+  margin-left: 97px;
+  font-family: "segoe ui";
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 13px;
+  font-style: normal;
+  text-align: left;
+  color: #497696;
+}

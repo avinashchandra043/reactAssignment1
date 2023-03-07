@@ -1,0 +1,44 @@
+.ribbon {
+  display: flex;
+  width: 917px;
+  justify-content: space-between;
+  padding: 25px 0px 25px 0px;
+}
+.ribbon1 {
+  display: flex;
+  gap: 18px;
+}
+.ribbon2 {
+  display: flex;
+  gap: 5px;
+}
+.ribbon21 {
+  width: 89px;
+  height: 36px;
+  border: 1px solid #dfe3eb;
+  border-radius: 18px;
+  font-family: "segoe ui";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+  font-style: normal;
+  color: #33475b;
+  background: #eaf0f6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ribbon22 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 106px;
+  height: 38px;
+  margin-left: 13px;
+  border: 1px solid #dfe3eb;
+  border-radius: 5px;
+}
+.ribbon22 > img {
+  width: 16px;
+  height: 16px;
+}
